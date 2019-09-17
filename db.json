@@ -1,0 +1,16 @@
+{
+    "users": [
+        { "id": 1, "name": "Ayo", "email": "ayo@gmail.com", "password": "password"},
+        { "id": 2, "name": "Dami", "email": "dami@hotmail.com", "password": "asdfghhj"},
+        { "id": 3, "name": "Fola", "email": "fola@yahoo.com", "password": "tomiskin"}
+    ],
+    "admin": [
+        { "id": 1, "username": "mayowa", "password": "qwertyui"},
+        { "id": 2, "username": "cosmos", "password": "poiuytre"}
+    ],
+    "hotels": [
+        {"id": 1, "hotel-name": "Beni Hotels", "state": "Lagos", "city": "Lagos Island", "address": "11/13 Wimo Onatere Street, Off Broad Street" , "facility": ["Internet", "Pool", "Bar"], "rooms":{"Standard": 7500, "Deluxe": 15000, "Executive": 30000} , "phone-number": "080132435467", "email": "benihotels@yahoo.com", "description": "A mere 5-minute drive to Freedom Park, Beni Hotels is an exquisite hotel located at 11/13 Wiwo Onatere Street, off Broad Street, Marina, Lagos. Tourists particularly enjoy the nearness of Beni Hotels to the National Museum."},
+        {"id": 2, "hotel-name": "Radisson", "state": "Lagos", "city": "Ikeja", "address": " 42/44 Isaac John Street, GRA", "facility": ["Internet","Swimming Pool","Restaurant"], "rooms": {"Standard": 66000, "Deluxe": 85300, "Executive": 138900}, "phone-number": "09126786541", "email": "radissonblu@hotel.com", "description": "Protea Hotel is an elegant 4-Star hotel located in the calm and secure residential area of 42/44 Isaac John Street, GRA, Ikeja. It is the place to be for excellent customer service and a wonderful shopping experience. It is arranged over three floors, making it a visible structure around its surroundings."},
+        {"id": 3, "hotel-name": "The Envoy", "state": "Abuja", "city": "CBD", "address": "305 Diplomatic Drive", "facility": ["Internet","Restaurant","Security","DSTV"], "rooms": {"Standard": 80000,"Deluxe": 96000,"Executive": 240000}, "phone-number": "2346677882123", "email": "theenvoy@hotel.com" , "description": "The Envoy hotel as been said to be the most secured hotel in Abuja and Lagos as well because of the involvement of a world class security company from the conceptualization of the design, the flag off of the project and completion of the hotel building with the most sophisticated technology and security fittings."}
+    ]
+}
