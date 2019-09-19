@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://www.travelweekly.com/sh/wuQcMiohlD/assets/tYs8Opw1BE/1_overview_2560x1440_artistry-20ii_exterior_rhine-2560x1440.jpeg);
+    font-family: sans-serif;
+}
+
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    min-height: 200px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.loginForm {
+    position: absolute;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

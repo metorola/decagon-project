@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotlist | Admin</title>
+    <link rel="stylesheet" href="styleAdmin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#index.html">HOTLIST</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li> -->
+                </ul>
+            </div>
+            <div class="toright">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Add Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <table>
+        <tr>
+            <td>
+                <h4>Add new hotel</h4>
+                <form id="postForm">
+                    <div>
+                        <label>Hotel Name</label>
+                        <input type="text" name="hotelName" id="hotelName" required>
+                    </div>
+                    <div>
+                        <label>City</label>
+                        <input type="text" name="city" id="city" required>
+                    </div>
+                    <div>
+                        <label>State</label>
+                        <input type="text" name="state" id="state" required>
+                    </div>
+                    <div>
+                        <label>Address</label>
+                        <input type="text" name="address" id="address" required>
+                    </div>
+                    <div>
+                        <label>Picture URL</label>
+                        <input type="text" name="pics" id="pics" required>
+                    </div>
+                    <div>
+                        <label>Facility</label>
+                        <input type="text" name="facility" id="facility">
+                    </div>
+                    <div>
+                        <label>Rooms</label>
+                        <input type="text" name="rooms" id="rooms">
+                    </div>
+                    <div>
+                        <label>Phone Number</label>
+                        <input type="text" name="phoneNumber" id="phone" required>
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <input type="textarea" name="description" id="describe" required>
+                    </div>
+                    <div class="form-action-buttons">
+                        <input type="submit" name="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="hotelList">
+                    <thead>
+                        <tr>
+                            <th>Hotel name</th>
+                            <th>City</th>
+                            <th>State</th>
+                            <th>Address</th>
+                            <th>Picture url</th>
+                            <th>Facility</th>
+                            <th>Rooms</th>
+                            <th>Phone number</th>
+                            <th>Email</th>
+                            <th>Description</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table class="list" id="hotelList">
+        <thead>
+            <tr>
+                <th>Hotel name</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Address</th>
+                <th>Picture url</th>
+                <th>Facility</th>
+                <th>Rooms</th>
+                <th>Phone number</th>
+                <th>Email</th>
+                <th>Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; customercare@hotlist.com</small>
+        </div>
+    </footer>
+
+
+    <script src="admin.js"></script>
+</body>
+</html>
