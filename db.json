@@ -1,16 +1,125 @@
 {
-    "users": [
-        { "id": 1, "name": "Ayo", "email": "ayo@gmail.com", "password": "password"},
-        { "id": 2, "name": "Dami", "email": "dami@hotmail.com", "password": "asdfghhj"},
-        { "id": 3, "name": "Fola", "email": "fola@yahoo.com", "password": "tomiskin"}
-    ],
-    "admin": [
-        { "id": 1, "username": "mayowa", "password": "qwertyui"},
-        { "id": 2, "username": "cosmos", "password": "poiuytre"}
-    ],
-    "hotels": [
-        {"id": 1, "hotelname": "Beni Hotels", "state": "Lagos", "city": "Lagos Island", "address": "11/13 Wimo Onatere Street, Off Broad Street" , "picture":"https://media-cdn.tripadvisor.com/media/photo-s/0a/9a/da/bd/restaurant.jpg","facility": ["Internet", "Pool", "Bar"], "rooms":{"Standard": 7500, "Deluxe": 15000, "Executive": 30000} , "phonenumber": "080132435467", "email": "benihotels@yahoo.com", "description": "A mere 5-minute drive to Freedom Park, Beni Hotels is an exquisite hotel located at 11/13 Wiwo Onatere Street, off Broad Street, Marina, Lagos. Tourists particularly enjoy the nearness of Beni Hotels to the National Museum."},
-        {"id": 2, "hotelname": "Radisson", "state": "Lagos", "city": "Ikeja", "address": " 42/44 Isaac John Street, GRA", "picture": "https://edge.media.datahc.com/HI543559894.jpg?source=Leonardo", "facility": ["Internet","Swimming Pool","Restaurant"], "rooms": {"Standard": 66000, "Deluxe": 85300, "Executive": 138900}, "phonenumber": "09126786541", "email": "radissonblu@hotel.com", "description": "Protea Hotel is an elegant 4-Star hotel located in the calm and secure residential area of 42/44 Isaac John Street, GRA, Ikeja. It is the place to be for excellent customer service and a wonderful shopping experience. It is arranged over three floors, making it a visible structure around its surroundings."},
-        {"id": 3, "hotelname": "The Envoy", "state": "Abuja", "city": "CBD", "address": "305 Diplomatic Drive", "picture": "https://media-cdn.tripadvisor.com/media/photo-s/14/7c/62/10/reception-area.jpg", "facility": ["Internet","Restaurant","Security"], "rooms": {"Standard": 80000,"Deluxe": 96000,"Executive": 240000}, "phonenumber": "2346677882123", "email": "theenvoy@hotel.com" , "description": "The Envoy hotel as been said to be the most secured hotel in Abuja and Lagos as well because of the involvement of a world class security company from the conceptualization of the design, the flag off of the project and completion of the hotel building with the most sophisticated technology and security fittings."}
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Ayo",
+      "email": "ayo@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "name": "Dami",
+      "email": "dami@hotmail.com",
+      "password": "asdfghhj"
+    },
+    {
+      "id": 3,
+      "name": "Fola",
+      "email": "fola@yahoo.com",
+      "password": "tomiskin"
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "username": "mayowa",
+      "password": "qwertyui"
+    },
+    {
+      "id": 2,
+      "username": "cosmos",
+      "password": "poiuytre"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "hotelname": "Beni Hotels",
+      "state": "Lagos",
+      "city": "Lagos Island",
+      "address": "11/13 Wimo Onatere Street, Off Broad Street",
+      "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0a/9a/da/bd/restaurant.jpg",
+      "facility": [
+        "Internet",
+        "Pool",
+        "Bar"
+      ],
+      "rooms": {
+        "Standard": 7500,
+        "Deluxe": 15000,
+        "Executive": 30000
+      },
+      "phonenumber": "080132435467",
+      "email": "benihotels@yahoo.com",
+      "description": "A mere 5-minute drive to Freedom Park, Beni Hotels is an exquisite hotel located at 11/13 Wiwo Onatere Street, off Broad Street, Marina, Lagos. Tourists particularly enjoy the nearness of Beni Hotels to the National Museum."
+    },
+    {
+      "id": 2,
+      "hotelname": "Radisson",
+      "state": "Lagos",
+      "city": "Ikeja",
+      "address": " 42/44 Isaac John Street, GRA",
+      "picture": "https://edge.media.datahc.com/HI543559894.jpg?source=Leonardo",
+      "facility": [
+        "Internet",
+        "Swimming Pool",
+        "Restaurant"
+      ],
+      "rooms": {
+        "Standard": 66000,
+        "Deluxe": 85300,
+        "Executive": 138900
+      },
+      "phonenumber": "09126786541",
+      "email": "radissonblu@hotel.com",
+      "description": "Protea Hotel is an elegant 4-Star hotel located in the calm and secure residential area of 42/44 Isaac John Street, GRA, Ikeja. It is the place to be for excellent customer service and a wonderful shopping experience. It is arranged over three floors, making it a visible structure around its surroundings."
+    },
+    {
+      "id": 3,
+      "hotelname": "The Envoy",
+      "state": "Abuja",
+      "city": "CBD",
+      "address": "305 Diplomatic Drive",
+      "picture": "https://media-cdn.tripadvisor.com/media/photo-s/14/7c/62/10/reception-area.jpg",
+      "facility": [
+        "Internet",
+        "Restaurant",
+        "Security"
+      ],
+      "rooms": {
+        "Standard": 80000,
+        "Deluxe": 96000,
+        "Executive": 240000
+      },
+      "phonenumber": "2346677882123",
+      "email": "theenvoy@hotel.com",
+      "description": "The Envoy hotel as been said to be the most secured hotel in Abuja and Lagos as well because of the involvement of a world class security company from the conceptualization of the design, the flag off of the project and completion of the hotel building with the most sophisticated technology and security fittings."
+    },
+    {
+      "hotelname": "Sheraton Hotel",
+      "state": "Lagos",
+      "city": "Ikeja",
+      "address": "30 Mobolaji Bank Anthony Way",
+      "picture": "https://q-cf.bstatic.com/images/hotel/max1024x768/107/107611465.jpg",
+      "facility": "Spa",
+      "rooms": "Presidential",
+      "phonenumber": "012800100",
+      "email": "sheraton@hotel.com",
+      "description": "Ideally located near the airport in Ikeja, Sheraton Lagos Hotel welcomes those traveling through Nigeria with reliable service, thoughtful amenities and a prime, secure location.",
+      "id": 4
+    },
+    {
+      "hotelname": "Nicon Luxury",
+      "state": "Abuja",
+      "city": "Garki",
+      "address": " Plot 903 Tafawa Balewa Way Area 11",
+      "picture": "https://media-cdn.tripadvisor.com/media/photo-s/01/2c/76/c5/poolside-view.jpg",
+      "facility": "Swimming Pool, Internet, Casino",
+      "rooms": "Executive",
+      "phonenumber": "017374064",
+      "email": "niconluxury@outlook.com",
+      "description": "The Nicon Luxury Hotel is located at Plot 903 Tafawa Balewa way, Area 11, Abuja. This 4-Star rated hotel boasts an imposing and impressive architectural design plus world-class facilities and services. The Nicon Luxury Hotel enjoys a strategic location with proximity to important city landmarks and strategic institutions.",
+      "id": 5
+    }
+  ]
 }
