@@ -3,7 +3,6 @@ loginIn.addEventListener('submit', login);
 
 function login(e) {
     e.preventDefault();
-    alert("working!");
 
     var un = document.getElementById("userAdmin").value;
     var psword = document.getElementById("pwAdmin").value;
@@ -19,7 +18,7 @@ function login(e) {
                     alert('Successful Login!')
                     location.href = "http://127.0.0.1:5500/admin.html";
                 }
-                else {
+                else if ((un !== admins[i].username) || (psword !== admins[i].password)){
                     alert("Username and/or Password NOT correct!");
                 }
             }
