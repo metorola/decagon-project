@@ -83,7 +83,11 @@
       "city": "Ikeja",
       "address": "30 Mobolaji Bank Anthony Way",
       "picture": "https://q-cf.bstatic.com/images/hotel/max1024x768/107/107611465.jpg",
-      "facility": "Spa",
+      "facility": [
+        "Spa",
+        "Gym",
+        "Golf Course"
+      ],
       "phonenumber": "012800100",
       "email": "sheraton@hotel.com",
       "id": 4
@@ -94,10 +98,23 @@
       "city": "Garki",
       "address": " Plot 903 Tafawa Balewa Way Area 11",
       "picture": "https://media-cdn.tripadvisor.com/media/photo-s/01/2c/76/c5/poolside-view.jpg",
-      "facility": "Swimming Pool, Internet, Casino",
+      "facility": [
+        "Swimming Pool, Internet, Casino"
+      ],
       "phonenumber": "017374064",
       "email": "niconluxury@outlook.com",
       "id": 5
+    },
+    {
+      "hotelname": "ddfdfdf",
+      "state": "dfsfmskfnmdl",
+      "city": "dfdfdfs",
+      "address": "smlkmdldpkl",
+      "picture": " kdmdkkdsdjdps",
+      "facility": "lkkcipijpdjpidj",
+      "phonenumber": "dkdmisiijis",
+      "email": "mdkcpmdpci@ldfldpf.com",
+      "id": 6
     }
   ]
 }

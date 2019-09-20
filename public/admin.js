@@ -1,3 +1,4 @@
+// var selectRow = null;
 
 var addForm = document.getElementById('postForm');
 addForm.addEventListener('submit', newHotel);
@@ -37,6 +38,7 @@ function resetForm() {
     document.getElementById("facility").value = "";
     document.getElementById("phone").value = "";
     document.getElementById("email").value = "";
+    // selectRow = null;
 }
 
 var request = new XMLHttpRequest();
@@ -48,7 +50,7 @@ request.onload = function () {
     if (this.status == 200) {
         var output = "";
         for (let i = 0; i < hotels.length; i++) {
-            output += '<tr>' +
+            output += '<tr id=" '+ hotels[i].id + '">' +
                 '<td>' + hotels[i].hotelname + '</td>' +
                 '<td>' + hotels[i].city + '</td>' +
                 '<td>' + hotels[i].state + '</td>' +
@@ -57,7 +59,7 @@ request.onload = function () {
                 '<td>' + hotels[i].facility + '</td>' +
                 '<td>' + hotels[i].phonenumber + '</td>' +
                 '<td>' + hotels[i].email + '</td>' +
-                '<td><div><a onclick="onEdit(this)" id="editBtn">edit</a></div><br><div><a onclick="onDelete(this)" id="delBtn">Delete</a></div></td>' +
+                '<td><a onclick="onEdit(this)" id="editBtn">edit</a><br><div><a onclick="onDelete(this)" id="delBtn">Delete</a></div></td>' +
                 '</tr>'
         }
         document.getElementById('hotelData').innerHTML = output;
@@ -65,3 +67,32 @@ request.onload = function () {
     xhr.send();
 }
 
+function onDelete(td) {
+    var x = td.parentNode.id;
+    var xhr = new XMLHttpRequest();
+    xhr.open('DELETE', "http://localhost:3004/hotels/"+ x);
+    xhr.responseType = 'json';
+    xhr.send();
+    xhr.onload = function() {
+        alert(confirm("Are you sure you want to delete?"));
+        x = "";
+
+    }
+    xhr.send();
+}
+
+
+
+
+
+
+
+
+// document.getElementById("hotelName").value = selectRow.cells[0].innerHTML;
+// document.getElementById("state").value = selectRow.cells[1].innerHTML;
+// document.getElementById("city").value = selectRow.cells[2].innerHTML;
+// document.getElementById("address").value = selectRow.cells[3].innerHTML;
+// document.getElementById("pics").value = selectRow.cells[4].innerHTML;
+// document.getElementById("facility").value = selectRow.cells[5].innerHTML;
+// document.getElementById("phone").value = selectRow.cells[6].innerHTML;
+// document.getElementById("email").value = selectRow.cells[7].innerHTML;

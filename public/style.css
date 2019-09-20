@@ -11,14 +11,13 @@ img {
     height: auto;
 }
 
-.matchHotel {
+.viewHotel {
     display: flex;
     background: lightcyan;
     padding: 10px;
     margin-bottom: 10px;
 }
 
-.matchHotel ul{
+.viewHotel ul {
     list-style: none;
 }
-
