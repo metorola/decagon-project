@@ -16,7 +16,7 @@ function login(e) {
             for (let i = 0; i < admins.length; i++) {
                 if ((un === admins[i].username) && (psword === admins[i].password)) {
                     alert('Successful Login!')
-                    location.href = "http://127.0.0.1:5500/admin.html";
+                    location.href = "http://localhost:3004/admin.html";
                 }
                 else if ((un !== admins[i].username) || (psword !== admins[i].password)){
                     alert("Username and/or Password NOT correct!");
